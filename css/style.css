@@ -1,0 +1,565 @@
+/* =============common css================ */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* =============common css end================ */
+/* =============nabar css start ================ */
+
+
+@font-face {
+    font-family: gilroys;
+    src: url(../font/Gilroy-Semibold.ttf);
+    
+}
+@font-face {
+    font-family: gilroyr;
+    src: url(../font/Gilroy-Regular.ttf);
+    
+}
+@font-face {
+    font-family: gilroyb;
+    src: url(../font/Gilroy-Bold.ttf)
+    
+}
+nav ul li {
+    margin:10px 20px;
+    position: relative;
+}
+nav ul li a{
+    font-family: gilroys !important;
+    color:#000000 !important;
+
+    font-size: 14px !important;
+    line-height: 16px;
+    
+}
+
+nav ul li .dropdown {
+    background: #4F46BA;
+    position: absolute;
+    top:30px;
+    left: 0;
+    transform: rotateX(90deg);
+    transition: .4s;
+    transform-origin: top;
+    border-bottom-right-radius: 10px;
+
+}
+nav ul li i{
+    transform: rotateX(180deg);
+    transition: .4s;
+}
+nav ul li:hover i{
+    transform: rotateX(0deg);
+}
+nav ul li .dropdown ul{
+    padding: 10px 30px;
+}
+nav ul li .dropdown ul li{
+    margin: 5px 0;
+}
+nav ul li:hover .dropdown{
+    transform: rotateX(0deg);
+}
+nav ul li .dropdown ul li a{
+    color:#ffff !important;
+}
+
+nav .button a{
+    display: inline-block;
+    font-family:gilroys;
+    font-size: 14px;
+    color:#000000;
+    background:transparent!important;
+    padding: 17px 36px;
+    transition: .4s;
+}
+nav .button a:hover{
+    background:#4F46BA!important;
+    color:#ffffff;
+}
+nav .button .active{
+    background:#4F46BA!important;
+    color:#ffffff;
+}
+.banner__img{
+    width: 100%;
+    margin-top: 124px;
+
+}
+#banner{
+    border-bottom: 2px solid #E3E6E9;
+    padding-bottom: 70px;
+}
+.banner__hadding{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 73px;
+    margin-top: 186px;
+    width: 520px;
+   
+}
+.banner__pera{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    width: 510px;
+    margin-top: 18px;
+}
+.banner__buttom{
+    display: inline-block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 14px 20px  14px 14px;
+    background: #4F46BA;
+    border-radius: 5px;
+    color:#FFFFFF;
+    transition: .4s;
+    border:1px solid #4F46BA;
+}
+.banner__buttom:hover{
+    color:#000000;
+    background: #FFFFFF;
+    border:1px solid #4F46BA;
+}
+.banner__i{
+    margin-left: 45px;
+    font-size: 12px;
+}
+.banner__left{
+    margin-top: 50px;
+}
+.banner_downpera{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    width: 420px;
+    margin-top: 15px;
+}
+/* =============nabar css end================ */
+/* ===============logo part start ============ */
+#logo-part{
+    margin-top: 70px;
+    border-bottom: 2px solid #E3E6E9;
+}
+.logo-part__hadding{
+    font-family: gilroys;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.logo-part__img{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* ===============logo part end ============ */
+/* ===============media start ============ */
+.media__shape{
+    width: 100%;
+}
+.media__hadding{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color:#000000;
+    width: 632px;
+    margin:50px 0;
+}
+.media__subhadding{
+    font-family: gilroys;
+    font-size: 22px;
+    line-height: 26px;
+    color:#000000;
+    margin-top: 17px;
+}
+.media__pera{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    width: 250px;
+    margin-top: 15px;
+    color:#000000;
+}
+.media__logo{
+    width: 32px;
+    height: 32px;
+}
+/* ===============media end ============ */
+/* ================active start ==================== */
+#active{
+    margin-top: 80px;
+}
+.active__hadding{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 64px;
+    color:#000000;
+    width: 555px;
+    margin-top: 150px;
+    
+}
+.active__pera{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    width: 522px;
+    margin-top: 24px;
+    color:#000000;
+    margin-bottom: 44px;
+}
+.active__buttom{
+    display: inline-block;
+    font-family:gilroys;
+    font-size: 14px;
+    color:#000000;
+    background:transparent;
+    padding: 17px 36px;
+    transition: .4s;
+    border: 1px solid #000000;
+}
+.active__buttom:hover{
+    background: #4F46BA;
+    color:#FFFFFF;
+    border-color:#4F46BA;
+}
+
+.active__shape{
+   margin-top: -30px;
+   margin-left: 36px;
+}
+/* ================active end ==================== */
+/* ================daily-active start ==================== */
+
+/* ================daily-active end ==================== */
+
+/* ====================testimonal start ========================== */
+.testimonal__title{
+    text-align: center;
+}
+.testimonal__subtitle{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color:#4F46BA;
+}
+.testimoal__main__title{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    color:#000000;
+    width: 533px;
+    margin: 12px auto;
+
+}
+.testimonal__item{
+    border:2px solid #EAEFF3;
+    padding: 60px 30px 20px 30px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(55,52,169,0.62);
+-moz-box-shadow: 0px 3px 5px 0px rgba(55,52,169,0.62);
+box-shadow: 0px 3px 5px 0px rgba(55,52,169,0.62);
+position: relative;
+margin-top: 40px;
+}
+.testimonal__icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #4F46BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.testimonal__link{
+    display: inline-block;
+    color:#FE8B75;
+    font-size: 18px;
+    
+}
+.testimonal__link-main{
+    padding: 0;
+}
+.testimonal__pera{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#797979;
+    width: 334px;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.testimonal__pera::after {
+    position: absolute;
+    bottom: -20px;
+    left: -31px;
+    height: 2px;
+    width: 124%;
+    background: #EAEFF3;
+    content: '';
+}
+.testimonal__person{
+    display: flex;
+    margin-top: 27px;
+   
+}
+.testimonal__imgdiv{
+    width: 40px;
+    margin-right: 12px;
+}
+.testimonal__personimg{
+   width: 100%;
+}
+.testimonal__name{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:#453232;
+}
+.testimonal__rank{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color:#797979;
+}
+/* ====================testimonal end ========================== */
+/* ====================faqs start ========================== */
+#faqs{
+    margin-top: 230px;
+}
+.faqs__hadding{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 54px;
+    color:#000000;
+    width: 484px;
+
+}
+.faqs__pera{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#1B1C31;
+    width: 475px;
+    margin-top: 60px;
+
+}
+.faqs__buttom{
+    display: inline-block;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 47px;
+    padding: 14px 20px  14px 14px;
+    background: transparent;
+    border-radius: 5px;
+    color:#4F46BA;
+    transition: .4s;
+}
+.faqs__buttom:hover{
+    color:#FFFFFF;
+    background: #4F46BA;
+
+}
+.faqs__i{
+    margin-left: 10px;
+}
+
+.faqs__subhadding{
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 29px;
+    color:#1B1C31;
+    
+}
+.faqs__pera{
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    line-height: 29px;
+    color:#1B1C31;
+}
+.faqs__border{
+    border-bottom: 2px solid #8896A6 !important;
+}
+/* ====================faqs end ========================== */
+/* ====================community start ========================== */
+#community{
+    margin-top: 190px;
+    background: url(../images/Mask\ group.png) no-repeat center;
+    background-size: cover;
+    padding: 130px 0;
+}
+.community__box{
+    width: 593px;
+    height: 312px;
+    background:#3734A9;
+    padding: 55px 55px;
+    border-radius: 15px;
+    position: relative;
+}
+.community__shape{
+    position: absolute;
+    top:5px;
+    right: 0;
+}
+.community__subtitle{
+    font-family: gilroyb;
+    font-size: 14px;
+    color:#DEE1E6;
+    text-transform:uppercase;
+}
+.community__title{
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    line-height: 40px;
+    color:#FFFFFF;
+    width: 310px;
+    margin-top: 13px;
+}
+.community__input{
+    height: 360px;
+    height: 60px;
+}
+.community__inputbox{
+    margin-top: 22px;
+}
+.community__input::placeholder{
+    font-family: gilroys;
+    font-size: 14px;
+    color:#1B1C31;
+    margin-left: 20px;
+}
+.comminuty__button{
+    padding: 0 30px ;
+    font-family: gilroys;
+    font-size: 14px;
+    color:#FFFFFF;
+}
+/* ====================community end ========================== */
+/* ====================cta start ========================== */
+    #cta{
+        padding-top: 70px;
+        padding-bottom: 90px;
+        background: #1B1C31;
+        border-bottom: 2px solid #8896A6;
+    }
+    .cta__text{
+        text-align: center;
+
+    }
+    .cta__hadding{
+        color:#FFFFFF;
+        width: 817px;
+        font-size: 53px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        line-height: 70px;
+        margin: 0 auto;
+        
+    }
+    .cta__buttom{
+        display: inline-block;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 45px;
+        padding: 14px 20px  14px 25px;
+        background: #F9896B;
+        border-radius: 5px;
+        color:#000000;
+        transition: .4s;
+        border:1px solid #FE8B75;
+    }
+    .cta__buttom:hover{
+        color:#FFFFFF;
+        background: #4F46BA;
+        border:1px solid #4F46BA;
+        text-decoration: none;
+    }
+    
+/* ====================cta end ========================== */
+/* ===================footer start ======================= */
+    footer{
+        background: #1B1C31;
+        padding-top: 53px;
+    }
+    .footer__itemh1{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        color:#FFFFFF
+    }
+    .footer__itempera{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color:#FFFFFF;
+        line-height: 26px;
+        width: 520px;
+        margin-top: 18px;
+    }
+    .footer__item1h2{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        font-size: 21px;
+        line-height: 24px;
+        color:#FFFFFF;
+        margin-bottom: 35px;
+    }
+    .footer__ul{
+        padding: 0;
+        margin-bottom: 106px;
+    }
+    .footer__list{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color:#FFFFFF;
+        margin-bottom: 18px;
+
+    }
+    .footer__downh2{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        color:#FFFFFF;
+    }
+    .footer__downright{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        color:#FFFFFF;
+        text-align: right;
+    }
+    .footer__span{
+        font-weight: 800;
+    }
+    .footer__down{
+        border-top: 2px solid #8896A6;
+        background:#1B1C31;
+        padding: 40px 0;
+    }
+/* ===================footer end ======================= */
